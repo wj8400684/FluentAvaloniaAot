@@ -5,7 +5,8 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="FluentAvaloniaAot.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
-        Title="FluentAvaloniaAot">
+        Title="FluentAvaloniaAot"
+        ExtendClientAreaToDecorationsHint="True">
 
 <Grid>
         <CheckBox

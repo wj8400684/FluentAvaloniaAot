@@ -17,11 +17,5 @@ class Program
     public static AppBuilder BuildAvaloniaApp()
         => AppBuilder.Configure<App>()
             .UsePlatformDetect()
-            .LogToTrace()
-            .With(new Win32PlatformOptions()
-            {
-                UseWindowsUIComposition = true,
-                CompositionBackdropCornerRadius = 8f
-            })
-            .UseFAWindowing();
+            .LogToTrace();
 }
